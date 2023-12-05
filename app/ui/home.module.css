@@ -1,0 +1,67 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 600px;
+  padding: 6rem; /* increased padding to match the page_main__WunS6 style */
+  background: linear-gradient(
+    180deg,
+    rgba(var(--card-rgb-start), 1),
+    rgba(var(--card-rgb-end), 1)
+  ); /* gradient background */
+  box-sizing: border-box;
+  border: 1px solid rgba(var(--card-border-rgb), 0); /* using variable for border color */
+  border-radius: var(--border-radius); /* using variable for border radius */
+  box-shadow: 0 4px 8px 0 rgba(var(--shadow-rgb), 0.2); /* using variable for shadow color */
+  margin: 30px auto;
+  text-align: center;
+}
+
+.title {
+  color: var(--primary-color); /* using variable for color */
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-family: var(--font-mono);
+  font-weight: 700;
+  text-align: center;
+}
+
+.text {
+  color: var(--secondary-color); /* using variable for color */
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  font-family: var(--font-mono);
+  text-align: center;
+}
+
+.button {
+  color: white;
+  background-color: var(--button-color); /* using variable for color */
+  border: none;
+  border-radius: var(
+    --button-border-radius
+  ); /* using variable for border radius */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  font-family: var(--font-mono);
+  box-shadow: 0 0 10px rgba(24, 90, 219, 0.5); /* adding glow */
+}
+
+.button:hover {
+  background-color: var(--button-hover-color); /* using variable for color */
+  box-shadow: 0 0 20px rgba(24, 90, 219, 0.7); /* intensifying glow on hover */
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
