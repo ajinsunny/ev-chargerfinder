@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+EV Charger Finder
+=================
 
-## Getting Started
+Introduction
+------------
 
-First, run the development server:
+Welcome to the EV Charger Finder! This application is designed to help electric vehicle owners easily locate charging stations. Built with the latest web technologies, it offers a user-friendly interface and real-time data.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Features
+--------
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+-   Real-Time Charger Locations: Find nearby EV charging stations with real-time availability.
+-   User-Friendly Interface: Simple and intuitive design for ease of use.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Getting Started
+---------------
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1.  Clone the Repository:
 
-## Learn More
+    bashCopy code
 
-To learn more about Next.js, take a look at the following resources:
+    `git clone https://github.com/ajinsunny/ev-chargerfinder.git`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2.  Install Dependencies:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+    Copy code
 
-## Deploy on Vercel
+    `npm install`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3.  Run the Development Server:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+    arduinoCopy code
+
+    `npm run dev`
+
+    Access the application at `http://localhost:3000`.
+
+Usage
+-----
+
+-   Finding Stations: Enter your location to view nearby charging stations.
+-   Station Details: Click on a station to see availability and connector types.
+
+Technologies Used
+-----------------
+
+-   Next.js: For server-side rendering and static generation.
+-   React: For building the user interface.
+
+Contributing
+------------
+
+We welcome contributions! Please read our [Contribution Guidelines](https://chat.openai.com/c/CONTRIBUTING.md) for more information on how to get involved.
+
+License
+-------
+
+This project is licensed under the [MIT License](https://chat.openai.com/c/LICENSE).
+
+Contact
+-------
+
+For any queries or suggestions, please contact [ajin.sunny@gmail.com].
