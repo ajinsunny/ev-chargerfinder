@@ -1,6 +1,7 @@
-import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
+import { Button } from "@/components/ui/button";
+
 import styles from "@/app/ui/home.module.css";
 
 export default function Home() {
@@ -17,18 +18,25 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <h1 className={styles.title}>EV Charging Station Finder</h1>
-        <p className={styles.text}>
+        <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
+          EV Charging Station Finder
+        </h1>
+        <p className="leading-7 [&:not(:first-child)]:mt-6">
           Discover the nearest electric vehicle charging stations, check their
           availability, compare prices, and more.
         </p>
-        <p className={styles.text}>Get started by signing up or logging in.</p>
         <div className={styles.buttonContainer}>
-          <button className={styles.button}>Sign Up</button>
-          <button className={styles.button}>
-            <Link href="/login">Log In</Link>
-          </button>
+          <Button>Sign Up</Button>
+          <Link href="/login">
+            <Button>Log In</Button>
+          </Link>
         </div>
+        {/* <h1 className={styles.title}>EV Charging Station Finder</h1>
+        <p className={styles.text}>
+          
+        </p>
+        <p className={styles.text}>Get started by signing up or logging in.</p>
+         */}
       </main>
     </>
   );

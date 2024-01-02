@@ -3,8 +3,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 500px;
-  height: 600px;
+  width: 700px;
+  height: 100%;
   padding: 6rem; /* increased padding to match the page_main__WunS6 style */
   background: linear-gradient(
     180deg,
@@ -12,10 +12,10 @@
     rgba(var(--card-rgb-end), 1)
   ); /* gradient background */
   box-sizing: border-box;
-  border: 1px solid rgba(var(--card-border-rgb), 0); /* using variable for border color */
-  border-radius: var(--border-radius); /* using variable for border radius */
-  box-shadow: 0 4px 8px 0 rgba(var(--shadow-rgb), 0.2); /* using variable for shadow color */
-  margin: 30px auto;
+  border: 1px solid black; /* using variable for border color */
+  border-radius: 20px; /* using variable for border radius */
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  margin: 150px auto;
   text-align: center;
 }
 
@@ -64,4 +64,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 300px;
+  height: 200px;
+  gap: 30px;
 }
