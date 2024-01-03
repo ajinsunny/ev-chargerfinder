@@ -4,7 +4,6 @@ import { Button } from "@/components/ui/button";
 
 import styles from "@/app/ui/home.module.css";
 
-
 export default function Home() {
   return (
     <>
@@ -28,16 +27,10 @@ export default function Home() {
         </p>
         <div className={styles.buttonContainer}>
           <Button>Sign Up</Button>
-          <Link href="/login">
+          <Link href="/login" passHref>
             <Button>Log In</Button>
           </Link>
         </div>
-        {/* <h1 className={styles.title}>EV Charging Station Finder</h1>
-        <p className={styles.text}>
-          
-        </p>
-        <p className={styles.text}>Get started by signing up or logging in.</p>
-         */}
       </main>
     </>
   );
