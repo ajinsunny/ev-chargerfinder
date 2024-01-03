@@ -4,6 +4,8 @@ import { Button } from "@/components/ui/button";
 
 import styles from "@/app/ui/home.module.css";
 
+//This comment is added to test the git commit
+
 export default function Home() {
   return (
     <>
