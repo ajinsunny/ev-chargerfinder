@@ -26,7 +26,9 @@ export default function Home() {
           availability, compare prices, and more.
         </p>
         <div className={styles.buttonContainer}>
-          <Button>Sign Up</Button>
+          <Link href="/createaccount" passHref>
+            <Button>Sign Up</Button>
+          </Link>
           <Link href="/login" passHref>
             <Button>Log In</Button>
           </Link>

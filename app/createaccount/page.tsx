@@ -14,13 +14,15 @@ import {
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 
-export default function Login() {
+export default function CreateAccount() {
   return (
     <main className={styles.main}>
       <Card>
         <CardHeader className="space-y-1">
-          <CardTitle className="text-2xl">Login</CardTitle>
-          <CardDescription>Enter your email below to Login</CardDescription>
+          <CardTitle className="text-2xl">Create an account</CardTitle>
+          <CardDescription>
+            Enter your email below to create your account
+          </CardDescription>
         </CardHeader>
         <CardContent className="grid gap-4">
           <div className="grid grid-cols-2 gap-6">
@@ -53,7 +55,7 @@ export default function Login() {
           </div>
         </CardContent>
         <CardFooter>
-          <Button className="w-full">Login</Button>
+          <Button className="w-full">Create account</Button>
         </CardFooter>
       </Card>
     </main>
