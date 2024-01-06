@@ -14,7 +14,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 
-export default function Login() {
+export default function CreateAccount() {
   return (
     <main className={styles.main}>
       <Card>

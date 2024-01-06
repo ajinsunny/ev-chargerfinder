@@ -53,7 +53,7 @@ export default function Login() {
           </div>
         </CardContent>
         <CardFooter>
-          <Button className="w-full">Create account</Button>
+          <Button className="w-full">Login</Button>
         </CardFooter>
       </Card>
     </main>
