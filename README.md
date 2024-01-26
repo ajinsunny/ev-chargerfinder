@@ -4,7 +4,7 @@ EV Charger Finder
 Introduction
 ------------
 
-Welcome to the EV Charger Finder! This application is designed to help electric vehicle owners easily locate charging stations. Built with the latest web technologies, it offers a user-friendly interface and real-time data.
+Welcome to the EV Charger Finder! This application is designed to help electric vehicle owners easily locate charging stations. Built with the latest web technologies, it offers a user-friendly interface and real-time data
 
 Features
 --------
